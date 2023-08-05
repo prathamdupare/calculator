@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    background-color: #f0fcec;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1 {
+    background-color: #d6e6f7;
+    font-weight: lighter;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Screen {
+    display: flex;
+    background-color: #e8eaf6;
+    justify-content: right;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    /* border: 2px solid black; */
+    margin: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.container {
+    background-color: #f3e5f5;
+    display: flex;
+    /* width: 150px; */
+    flex-direction: column;
+    padding: 20px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.firstRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondRow {
+    display: flex;
+    justify-content: space-between;
+}
+.thirdRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourthRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fisththRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Base button styles */
+button {
+    border-radius: 100px;
+    padding: 10px;
+    margin: 2px;
+    display: inline-block;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #9575cd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    
+  }
+  
+  /* Hover styles */
+  button:hover {
+    background-color: #5e35b1;
+  }
+  
+  /* Active (clicked) styles */
+  button:active {
+    background-color: #b388ff;
+  }
+  
+  /* Optional: Add a box-shadow for a 3D effect */
+  button {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+  
