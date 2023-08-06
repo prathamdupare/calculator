@@ -6,45 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator for ME </title>
     <link rel="stylesheet" href="style.css">
+   
 </head>
 
 <body>
     <h1>Calculator</h1>
     <div class="container">
-        <div class="Screen">1+1</div>
+        <div class="screen"></div>
         <div class="buttons">
             <div class="firstRow">
                 <button id="clear">AC</button>
-                <button>%</button>
-                <button>/</button>
+                <button class="operation">%</button>
+                <button class="operation">/</button>
             </div>
             <div class="secondRow">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>x</button>
+                <button class="digit">7</button>
+                <button class="digit">8</button>
+                <button class="digit">9</button>
+                <button class="operation">*</button>
             </div>
             <div class="thirdRow">
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>-</button>
+                <button class="digit">4</button>
+                <button class="digit">5</button>
+                <button class="digit">6</button>
+                <button class="operation">-</button>
             </div>
             <div class="fourthRow">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>+</button>
+                <button class="digit">1</button>
+                <button class="digit">2</button>
+                <button class="digit">3</button>
+                <button class="operation">+</button>
             </div>
             <div class="fifthRow">
-                <button>0</button>
-                <button>.</button>
-                <button><</button>
-                <button>=</button>
+                <button class="digit">0</button>
+                <button class="digit">.</button>
+                <button id="back">Back</button>
+                <button id="equal">=</button>
             </div>
         </div>
-    </div>
-    
+    </div>    
 </body>
 <script src="script.js"></script>
 </html>
